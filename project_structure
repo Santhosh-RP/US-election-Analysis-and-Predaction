@@ -1,0 +1,10 @@
+my_project/
+├── app.py
+├── models/
+│   ├── regressor_model.pkl
+│   └── classifier_model.pkl
+├── templates/
+│   └── index.html
+├── static/
+│   ├── css/
+│   └── js/
