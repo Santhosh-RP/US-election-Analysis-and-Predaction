@@ -1,0 +1,24 @@
+D:\US-election clasand reg\
+├── .venv                       # Virtual environment directory
+├── data                         # Data folder
+│   └── US.csv                   # US election dataset
+├── models                       # Folder for model files
+│   ├── classifier_3_features.pkl # Classifier model with 3 features
+│   ├── election_models.pkl      # Election models file
+│   ├── reg_dem_pct_3_features.pkl # Regression model for Democrat vote percentage (3 features)
+│   ├── reg_dem_raw_3_features.pkl # Regression model for Democrat raw vote count (3 features)
+│   ├── reg_rep_pct_3_features.pkl # Regression model for Republican vote percentage (3 features)
+│   └── reg_rep_raw_3_features.pkl # Regression model for Republican raw vote count (3 features)
+├── static                       # Static files (CSS, JS)
+│   ├── script.js                # JavaScript file
+│   └── style.css                # CSS file
+├── templates                    # Templates folder for web application
+│   └── index.html               # Main HTML template
+├── Trainer                      # Folder for Jupyter notebook
+│   └── us-election.ipynb        # Jupyter notebook for training models
+├── a.html                       # Example HTML file
+├── app.py                       # Main application file (Flask or similar)
+├── manifest.json                # Manifest file for application
+├── requirements.txt             # Python dependencies file
+├── vercel.json                  # Vercel configuration file for deployment
+└── project_structure.txt        # Project structure file (optional)
